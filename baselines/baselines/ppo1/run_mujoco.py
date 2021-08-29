@@ -78,7 +78,7 @@ def train(env_id, num_timesteps, seed, num_options,app, saves ,wsaves, epoch,dc)
 def main():
     import argparse
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--env', help='environment ID', default='Hopper-v1')
+    parser.add_argument('--env', help='environment ID', default='Hopper-v2')
     parser.add_argument('--seed', help='RNG seed', type=int, default=1)
     parser.add_argument('--opt', help='number of options', type=int, default=2) 
     parser.add_argument('--app', help='Append to folder name', type=str, default='')        

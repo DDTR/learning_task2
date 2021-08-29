@@ -1,4 +1,4 @@
-name: jl_etc
+name: task2
 channels:
   - defaults
 dependencies:
@@ -52,5 +52,5 @@ dependencies:
     - werkzeug==0.16.0
     - wheel==0.33.6
     - wrapt==1.11.2
-prefix: /home/nfunk/anaconda3/envs/jl_etc
+prefix: /home/damon/anaconda3/envs/task2
 
